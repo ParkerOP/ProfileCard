@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-color: black;
+             /* display: flex;  */
+            /* justify-content: center; */
+            /* align-items: center; */
+        }
+
+        .container {
+            height: 100%;
+            /* width: 100%; */
+            padding: 100px 100px;
+            background-color: cyan;
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+        }
+
+        .box {
+            height: 50%;
+            width: 40%;
+            background-color: grey;
+            justify-content: center;
+            text-align: center;
+            /* padding: 100px 100px; */
+            border: 4px solid yellow;
+            border-radius: 50px;
+
+        }
+
+        #prof {
+            height: 200px;
+            width: 200px;
+            border: 5px solid cyan;
+            border-radius: 50%;
+        }
+
+        #l {
+            border-radius: 50%;
+            border: 1px solid black;
+        }
+        #g {
+            border-radius: 50%;
+            border: 1px solid black;
+        }
+        #x {
+            border-radius: 50%;
+            border: 1px solid black;
+        }
+
+        button {
+            background-color: chartreuse;
+            color: black;
+
+        }
+        #l:hover, #g:hover, #x:hover, button:hover {
+            transform:scale(1.05);
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Profile card content will go here -->
+    <div class="'container">
+        <div class="box">
+            <h2>Snehil Raj</h2>
+            <img src="images/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA4L2pvYjEwMzktZWxlbWVudC0yNi0zOTMucG5n.jpg" alt="profile photo" id="prof"><br>
+            <button>View Portfolio</button>
+            <button>Major Projects</button>
+            <br>
+            <br>
+            <div class="logo">
+                <img src="images/linkedin-logo-on-transparent-isolated-background-free-vector.jpg" alt="linkedin" id="l" height="48" width="48">
+                <img src="images/2ba717ac010d3b9f8d26e9db4da291b8.jpg" alt="x" id="x" width="48" height="48">
+                <img src="images/OIP.jpg" alt="github" id="g" width="48" height="48">
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
